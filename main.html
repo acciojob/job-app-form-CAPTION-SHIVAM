@@ -7,45 +7,43 @@
 </head>
 
 <body>
-	<div id="name">
+	<form method="get">
+		<div >
 		 <lable for="name">Name*</lable>
-	    <input type="text"id="name">	
+	    <input type="text"id="name" required>	
 	</div>
-	<div id="email">
+		<div>
 		 <lable for="email">Email*</lable>
-	    <input type="email"id="email">	
+	    <input type="email"id="email" required>	
 	</div>
-	<div id="gender">
-<label for="gendr">Gender*</label>
-<input type="radio" name="gender" value="male"> Male
-<input type="radio" name="gender" value="female"> Female
+		<div>
+		 <lable>Gender*</lable>
+	    <input type="radio"value="male" name="gender"required>	
+			<input type="radio"value="female"name="gender"required>
 	</div>
-	<div id="laptop">
-		 <lable for="lap"> Laptop Brands</lable>
-	    <select id=lap>
-			<option>options</option>
+		<div>
+			<label for="Laptop">Laptop Brands</label>
+	    <select id="Laptop">
 			<option>Apple</option>
 			<option>Asus</option>
 			<option>HP</option>
 		</select>
 	</div>
-	<div id="age">
+		<div>
 		 <lable for="age">Age*</lable>
-	    <input type="number"id="age">	
+	    <input type="number"id="age" required>	
 	</div>
-	<div id="dob">
+		<div>
 		 <lable for="dob">DOB*</lable>
-	    <input type="date"id="dob">	
+	    <input type="date"id="dob" required>	
 	</div>
-	<div id="password">
+		<div>
 		 <lable for="pass">Password*</lable>
-	    <input type="password"id="pass">	
+	    <input type="password"id="pass" required>	
 	</div>
-	<div>
-		 <lable for="sub">submit button</lable>
-	    <input type="submit"id="sub">	
-	</div>
-	
+		<input type="url"id="portfolio">
+	    <input type="submit"value="submit">	
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
